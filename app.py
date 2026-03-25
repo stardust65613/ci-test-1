@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/api/test')
 def hello():
-    return {'message': 'Hello World!'}
+    return {'message': 'Hello World!!'}
 
 
 # Addition operation

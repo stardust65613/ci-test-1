@@ -10,7 +10,7 @@ class TestApp(unittest.TestCase):
     def test_hello_endpoint(self):
         response = self.client.get('/api/test')
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.json, {"message": "Hello World!"})
+        self.assertEqual(response.json, {"message": "Hello World!!"})
 
     def test_add_endpoint(self):
         payload = json.dumps({
